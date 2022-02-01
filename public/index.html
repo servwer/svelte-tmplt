@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <title>Svelte app</title>
+
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="stylesheet" href="/global.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:wght@200;300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poller+One&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/build/bundle.css" />
+
+    <script defer src="/build/bundle.js"></script>
+  </head>
+
+  <body></body>
+  <style>
+    body {
+      display: flex;
+      height: 100%;
+    }
+    ::selection {
+      -webkit-text-fill-color: #fff;
+      background: linear-gradient(
+        90deg,
+        rgba(168, 255, 120, 1) 0%,
+        rgba(120, 255, 214, 1) 100%
+      );
+      color: white;
+    }
+
+    body {
+      padding: 0;
+      margin: 0;
+      font-family: "Exo 2", sans-serif;
+      box-sizing: border-box;
+      background: linear-gradient(
+        90deg,
+        rgba(223, 233, 243, 1) 0%,
+        rgba(255, 255, 255, 1) 401%
+      );
+      height: 100%;
+      font-weight: 400px;
+    }
+    li {
+      list-style: none;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+    #svelte {
+      display: flex;
+    }
+  </style>
+</html>
