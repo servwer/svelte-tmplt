@@ -5,7 +5,8 @@ import {
 } from '@sveltech/routify'
 export let links = [
     ['./index', 'Home'],
-    ['./info', 'Info']
+    ['./info', 'Info'],
+    ['./editor', 'Editor']
 ]
 </script>
 
