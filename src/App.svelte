@@ -19,5 +19,4 @@ setTimeout(() => {
 <Router {routes} />
 
 <style>
-
 </style>

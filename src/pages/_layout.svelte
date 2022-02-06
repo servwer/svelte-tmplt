@@ -23,6 +23,7 @@ import Sidebar from './../components/Sidebar/Sidebar.svelte';
 }
 
 main.inset {
+    width: 100%;
     bottom: 64px;
     overflow: hidden;
 }
